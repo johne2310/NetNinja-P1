@@ -36,6 +36,3 @@ export default {
   margin-top: 60px;
 }
 </style>
-
-<!--github access token-->
-<!--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-->
