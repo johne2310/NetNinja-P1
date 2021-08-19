@@ -2,7 +2,7 @@
   <div class="backdrop">
     <div class="modal">
       <h1>{{ modalTitle }}</h1>
-      <p>Modal content</p>
+      <p>{{ header }}</p>
     </div>
   </div>
 </template>
@@ -14,6 +14,9 @@ export default {
     modalTitle: {
       type: String,
       required: true
+    },
+    header: {
+      type: String
     }
   }
 };

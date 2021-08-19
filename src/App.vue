@@ -1,6 +1,6 @@
 <template>
   <h1>{{ title }}</h1>
-  <Modal :modal-title="header"></Modal>
+  <Modal :modal-title="title" :header="header"></Modal>
 </template>
 
 <script>
